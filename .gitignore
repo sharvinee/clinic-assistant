@@ -1,0 +1,54 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+.envrc
+.secrets/
+secrets/
+*.secret
+*.secrets
+*.token
+*.tokens
+*.keystore
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+service-account*.json
+firebase-adminsdk-*.json
+
+# Python environments, bytecode, and build artifacts
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Local application data and generated databases
+database/*.db
+database/*.sqlite
+database/*.sqlite3
+datasets/
+.langgraph_api/
+.firecrawl/
+
+# Logs, temporary files, and OS/editor metadata
+*.log
+*.tmp
+*.swp
+*.swo
+.DS_Store
+.idea/
+.vscode/
