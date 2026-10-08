@@ -1,8 +1,8 @@
 # Clinic Assistant
 
-A LangGraph-powered clinic scheduling assistant. It helps patients register,
-view available appointment slots, review their own appointments, and book,
-reschedule, or cancel visits.
+A Deep Agents clinic scheduling assistant, built with LangChain and running on
+the LangGraph runtime. It helps patients register, view available appointment
+slots, review their own appointments, and book, reschedule, or cancel visits.
 
 The application uses a local SQLite database seeded with fictional patient and
 appointment data. It is intended as a demonstration project, not a production
